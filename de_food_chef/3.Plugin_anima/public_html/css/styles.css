@@ -1,0 +1,1374 @@
+.homescreen-versie {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .homescreen-versie .div {
+    background-color: #ffffff;
+    overflow-x: hidden;
+    width: 1440px;
+    height: 2029px;
+    position: relative;
+  }
+  
+  .homescreen-versie .head {
+    position: absolute;
+    width: 1440px;
+    height: 684px;
+    top: 0;
+    left: 0;
+    background-image: url(../images/Food.jpeg);
+    background-size: cover;
+    background-position: 50% 50%;
+  }
+  
+  .homescreen-versie .overlap {
+    position: absolute;
+    width: 700px;
+    height: 250px;
+    top: 249px;
+    left: 390px;
+    background-color: #00000080;
+  }
+  
+  .homescreen-versie .group {
+    position: relative;
+    width: 573px;
+    left: 100px;
+  }
+  
+  .homescreen-versie .text-wrapper {
+    position: absolute;
+    opacity: 0.9;
+    font-family: "Jacques Francois Shadow-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 90px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .homescreen-versie .p {
+    position: absolute;
+    top: 150px;
+    left: 35px;
+    font-family: "Jacques Francois-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 25.9px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .homescreen-versie .navbar {
+    position: absolute;
+    width: 1444px;
+    height: 150px;
+    top: 9px;
+    left: 0;
+  }
+  
+  .homescreen-versie .overlap-group {
+    position: relative;
+    width: 1440px;
+    height: 150px;
+    background-color: #000000;
+  }
+  
+  .homescreen-versie .nav {
+    position: absolute;
+    width: 66px;
+    top: 65px;
+    left: 740px;
+    -webkit-text-stroke: 1px #000000;
+    font-family: "Inter-Bold", Helvetica;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 18px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .homescreen-versie .nav-item {
+    position: absolute;
+    width: 89px;
+    top: 67px;
+    left: 827px;
+    -webkit-text-stroke: 1px #000000;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 18px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .homescreen-versie .add-button {
+    position: absolute;
+    top: 40px;
+    left: 1076px;
+  }
+  
+  .homescreen-versie .toevoegen-review-wrapper {
+    width: 244px;
+    height: 33px;
+    background-color: #8dd374;
+    border-radius: 10px;
+
+  }
+  
+  .homescreen-versie .toevoegen-review {
+    width: 245px;
+    padding-top: 6px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 18px;
+    text-align: center;
+  }
+  
+  .homescreen-versie .language-button {
+    position: absolute;
+    width: 59px;
+    height: 21px;
+    top: 55px;
+    left: 970px;
+  }
+  
+  .homescreen-versie .overlap-group-2 {
+    position: relative;
+    height: 10px;
+    top: -2px;
+  }
+  
+  .homescreen-versie .line {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    top: 0;
+    left: 0;
+  }
+  
+  .homescreen-versie .img {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    top: 0;
+    left: 8px;
+  }
+  
+  .homescreen-versie .logo {
+    position: absolute;
+    width: 184px;
+    height: 124px;
+    top: 13px;
+    left: 100px;
+    background-image: url(./img/rectangle-13.png);
+    background-size: cover;
+    background-position: 50% 50%;
+  }
+  
+  .homescreen-versie .overlap-2 {
+    position: relative;
+    width: 62px;
+    height: 51px;
+    top: 15px;
+    left: 54px;
+  }
+  
+  .homescreen-versie .de-food-chef {
+    position: absolute;
+    width: 62px;
+    top: 40px;
+    left: 0;
+    font-family: "Jacques Francois Shadow-Regular", Helvetica;
+    font-weight: 400;
+    color: transparent;
+    font-size: 8px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .homescreen-versie .span {
+    color: #ffffff;
+  }
+  
+  .homescreen-versie .text-wrapper-3 {
+    color: #e8c823;
+  }
+  
+  .homescreen-versie .text-wrapper-4 {
+    color: #8dd374;
+  }
+  
+  .homescreen-versie .test-removebg {
+    position: absolute;
+    width: 110px;
+    height: 90px;
+    top: 0;
+    left: 11px;
+    object-fit: cover;
+  }
+  
+  .homescreen-versie .line-2 {
+    position: absolute;
+    width: 1px;
+    height: 43px;
+    top: 53px;
+    left: 1043px;
+    object-fit: cover;
+  }
+  
+  .homescreen-versie .line-3 {
+    position: absolute;
+    width: 1px;
+    height: 43px;
+    top: 53px;
+    left: 930px;
+    object-fit: cover;
+  }
+  
+  .homescreen-versie .overlap-3 {
+    position: absolute;
+    width: 1446px;
+    height: 342px;
+    top: 1687px;
+    left: 0;
+  }
+  
+  .homescreen-versie .review {
+    height: 332px;
+    top: 0;
+    left: 120px;
+    position: absolute;
+    width: 1200px;
+  }
+  
+  .homescreen-versie .overlap-4 {
+    position: relative;
+    height: 332px;
+    border-radius: 20px;
+  }
+  
+  .homescreen-versie .content {
+    position: absolute;
+    width: 558px;
+    height: 180px;
+    top: 39px;
+    left: 513px;
+  }
+  
+  .homescreen-versie .text-wrapper-5 {
+    position: absolute;
+    width: 136px;
+    top: 0;
+    left: 0;
+    font-family: "Inter-Bold", Helvetica;
+    font-weight: 700;
+    color: #000000;
+    font-size: 31.1px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .homescreen-versie .text-wrapper-6 {
+    position: absolute;
+    width: 510px;
+    top: 160px;
+    left: 40px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .homescreen-versie .text-wrapper-7 {
+    position: absolute;
+    width: 100px;
+    top: 76px;
+    left: 33px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 18px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .homescreen-versie .text-wrapper-8 {
+    position: absolute;
+    width: 83px;
+    top: 47px;
+    left: 33px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 18px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .homescreen-versie .kenmerken {
+    position: absolute;
+    width: 118px;
+    height: 31px;
+    top: 2px;
+    left: 380px;
+  }
+  
+  .homescreen-versie .kind-vriendelijk {
+    width: 34px;
+    height: 31px;
+    left: 0;
+    background-color: #dcb34bcc;
+    border-radius: 17px/15.68px;
+    position: absolute;
+    top: 0;
+  }
+  
+  .homescreen-versie .vector {
+    position: absolute;
+    width: 20px;
+    height: 19px;
+    top: 6px;
+    left: 7px;
+  }
+  
+  .homescreen-versie .overlap-group-wrapper {
+    width: 38px;
+    height: 31px;
+    left: 84px;
+    position: absolute;
+    top: 0;
+  }
+  
+  .homescreen-versie .overlap-group-3 {
+    position: relative;
+    width: 34px;
+    height: 31px;
+    background-color: #dcb34bcc;
+    border-radius: 17px/15.68px;
+  }
+  
+  .homescreen-versie .text-wrapper-9 {
+    position: absolute;
+    width: 12px;
+    top: 6px;
+    left: 5px;
+    font-family: "Inter-Medium", Helvetica;
+    font-weight: 500;
+    color: #000000;
+    font-size: 18px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .homescreen-versie .text-wrapper-10 {
+    width: 12px;
+    left: 18px;
+    white-space: nowrap;
+    position: absolute;
+    top: 6px;
+    font-family: "Inter-Medium", Helvetica;
+    font-weight: 500;
+    color: #000000;
+    font-size: 18px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .homescreen-versie .parkeergelegenheid {
+    position: absolute;
+    width: 34px;
+    height: 31px;
+    top: 0;
+    left: 43px;
+    background-color: #dcb34bcc;
+    border-radius: 16.81px/15.68px;
+  }
+  
+  .homescreen-versie .overlap-5 {
+    position: relative;
+    width: 25px;
+    height: 23px;
+    top: 4px;
+    left: 5px;
+  }
+  
+  .homescreen-versie .vector-2 {
+    position: absolute;
+    width: 20px;
+    height: 19px;
+    top: 2px;
+    left: 1px;
+  }
+  
+  .homescreen-versie .kruis {
+    position: absolute;
+    width: 25px;
+    height: 23px;
+    top: 0;
+    left: 0;
+  }
+  
+  .homescreen-versie .overlap-group-4 {
+    position: relative;
+    width: 26px;
+    height: 26px;
+    top: -3px;
+    left: -2px;
+  }
+  
+  .homescreen-versie .line-4 {
+    position: absolute;
+    width: 26px;
+    height: 25px;
+    top: 1px;
+    left: 0;
+  }
+  
+  .homescreen-versie .line-5 {
+    position: absolute;
+    width: 25px;
+    height: 26px;
+    top: 0;
+    left: 2px;
+  }
+  
+  .homescreen-versie .rectangle {
+    position: absolute;
+    width: 1200px;
+    height: 332px;
+    top: 0;
+    left: 0;
+    border-radius: 20px;
+    border: 2px solid;
+    border-color: #35a30e80;
+  }
+  
+  .homescreen-versie .image {
+    position: absolute;
+    width: 416px;
+    height: 271px;
+    top: 30px;
+    left: 73px;
+    object-fit: cover;
+  }
+  
+  .homescreen-versie .stars {
+    position: absolute;
+    width: 139px;
+    height: 21px;
+    top: 47px;
+    left: 704px;
+  }
+  
+  .homescreen-versie .chef-s-hat {
+    height: 21px;
+    left: 0;
+    position: absolute;
+    width: 22px;
+    top: 0;
+  }
+  
+  .homescreen-versie .overlap-group-5 {
+    position: relative;
+    width: 24px;
+    height: 23px;
+    top: -1px;
+    left: -1px;
+  }
+  
+  .homescreen-versie .rectangle-2 {
+    position: absolute;
+    width: 13px;
+    height: 10px;
+    top: 6px;
+    left: 6px;
+    background-color: #8dd374;
+  }
+  
+  .homescreen-versie .vector-3 {
+    position: absolute;
+    width: 24px;
+    height: 23px;
+    top: 0;
+    left: 0;
+  }
+  
+  .homescreen-versie .vector-4 {
+    position: absolute;
+    width: 2px;
+    height: 5px;
+    top: 14px;
+    left: 11px;
+  }
+  
+  .homescreen-versie .overlap-wrapper {
+    height: 21px;
+    left: 58px;
+    position: absolute;
+    width: 22px;
+    top: 0;
+  }
+  
+  .homescreen-versie .div-wrapper {
+    height: 21px;
+    left: 87px;
+    position: absolute;
+    width: 22px;
+    top: 0;
+  }
+  
+  .homescreen-versie .chef-s-hat-2 {
+    height: 21px;
+    left: 117px;
+    position: absolute;
+    width: 22px;
+    top: 0;
+  }
+  
+  .homescreen-versie .chef-s-hat-3 {
+    height: 21px;
+    left: 29px;
+    position: absolute;
+    width: 22px;
+    top: 0;
+  }
+  
+  .homescreen-versie .line-6 {
+    height: 40px;
+    top: 37px;
+    left: 674px;
+    position: absolute;
+    width: 1px;
+    object-fit: cover;
+  }
+  
+  .homescreen-versie .line-7 {
+    position: absolute;
+    width: 1px;
+    height: 40px;
+    top: 37px;
+    left: 870px;
+    object-fit: cover;
+  }
+  
+  .homescreen-versie .sticker-text-outline {
+    position: absolute;
+    width: 20px;
+    height: 18px;
+    top: 199px;
+    left: 515px;
+  }
+  
+  .homescreen-versie .map-marker-outline {
+    position: absolute;
+    width: 30px;
+    height: 28px;
+    top: 83px;
+    left: 510px;
+  }
+  
+  .homescreen-versie .vector-5 {
+    position: absolute;
+    width: 18px;
+    height: 20px;
+    top: 115px;
+    left: 516px;
+  }
+  
+  .homescreen-versie .footer {
+    position: absolute;
+    width: 1446px;
+    height: 76px;
+    top: 1300px;
+    left: 0;
+    background-color: transparent;
+  }
+  
+  .homescreen-versie .overlap-6 {
+    position: relative;
+    width: 1440px;
+    height: 76px;
+    background-color: #7fce63;
+  }
+  
+  .homescreen-versie .text-wrapper-11 {
+    position: absolute;
+    top: 10px;
+    left: 127px;
+    font-family: "Inter-Medium", Helvetica;
+    font-weight: 500;
+    color: #ffffff;
+    font-size: 18px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .homescreen-versie .text-wrapper-12 {
+    position: absolute;
+    top: 10px;
+    left: 1205px;
+    font-family: "Inter-Medium", Helvetica;
+    font-weight: 500;
+    color: #ffffff;
+    font-size: 18px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .homescreen-versie .text-wrapper-13 {
+    position: absolute;
+    top: 10px;
+    left: 1026px;
+    font-family: "Inter-Medium", Helvetica;
+    font-weight: 500;
+    color: #ffffff;
+    font-size: 18px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .homescreen-versie .add-button-2 {
+    position: absolute;
+    width: 235px;
+    height: 90px;
+    top: 1150px;
+    left: 1176px;
+  }
+  
+  .homescreen-versie .overlap-7 {
+    position: relative;
+    width: 233px;
+    height: 90px;
+    background-color: #8dd374;
+    border-radius: 10px;
+    border: 1px solid;
+    border-color: #000000;
+  }
+  
+  .homescreen-versie .text-wrapper-14 {
+    position: absolute;
+    width: 157px;
+    left: 36px;
+    -webkit-text-stroke: 1px #000000;
+    font-family: "Inter-Bold", Helvetica;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 31.1px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .homescreen-versie .review-2 {
+    height: 360px;
+    top: 1270px;
+    left: 122px;
+    position: absolute;
+    width: 1200px;
+  }
+  
+  .homescreen-versie .overlap-8 {
+    position: relative;
+    height: 360px;
+    border-radius: 20px;
+  }
+  
+  .homescreen-versie .content-2 {
+    position: absolute;
+    width: 561px;
+    height: 239px;
+    top: 42px;
+    left: 510px;
+  }
+  
+  .homescreen-versie .text-wrapper-15 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-family: "Inter-Bold", Helvetica;
+    font-weight: 700;
+    color: #000000;
+    font-size: 31.1px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .homescreen-versie .het-is-leuk {
+    position: absolute;
+    width: 510px;
+    top: 173px;
+    left: 43px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .homescreen-versie .overlap-9 {
+    position: absolute;
+    width: 103px;
+    height: 53px;
+    top: 51px;
+    left: 36px;
+  }
+  
+  .homescreen-versie .text-wrapper-16 {
+    top: 31px;
+    left: 0;
+    position: absolute;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 18px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .homescreen-versie .text-wrapper-17 {
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 44px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 18px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .homescreen-versie .kenmerken-2 {
+    top: 2px;
+    left: 425px;
+    position: absolute;
+    width: 118px;
+    height: 34px;
+  }
+  
+  .homescreen-versie .vector-wrapper {
+    position: absolute;
+    width: 34px;
+    height: 34px;
+    top: 0;
+    left: 0;
+    background-color: #dcb34bcc;
+    border-radius: 17px;
+  }
+  
+  .homescreen-versie .vector-6 {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 7px;
+    left: 7px;
+  }
+  
+  .homescreen-versie .kind-vriendelijk-2 {
+    width: 38px;
+    height: 34px;
+    left: 84px;
+    position: absolute;
+    top: 0;
+  }
+  
+  .homescreen-versie .overlap-group-6 {
+    position: relative;
+    width: 34px;
+    height: 34px;
+    background-color: #dcb34bcc;
+    border-radius: 17px;
+  }
+  
+  .homescreen-versie .text-wrapper-18 {
+    left: 5px;
+    position: absolute;
+    top: 6px;
+    font-family: "Inter-Medium", Helvetica;
+    font-weight: 500;
+    color: #000000;
+    font-size: 18px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .homescreen-versie .text-wrapper-19 {
+    left: 18px;
+    position: absolute;
+    top: 6px;
+    font-family: "Inter-Medium", Helvetica;
+    font-weight: 500;
+    color: #000000;
+    font-size: 18px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .homescreen-versie .parkeergelegenheid-2 {
+    position: absolute;
+    width: 34px;
+    height: 34px;
+    top: 0;
+    left: 43px;
+    background-color: #dcb34bcc;
+    border-radius: 16.81px/17px;
+  }
+  
+  .homescreen-versie .overlap-10 {
+    position: relative;
+    width: 25px;
+    height: 25px;
+    top: 5px;
+    left: 5px;
+  }
+  
+  .homescreen-versie .vector-7 {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 2px;
+    left: 1px;
+  }
+  
+  .homescreen-versie .kruis-2 {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    top: 0;
+    left: 0;
+  }
+  
+  .homescreen-versie .overlap-group-7 {
+    position: relative;
+    width: 26px;
+    height: 28px;
+    top: -3px;
+    left: -1px;
+  }
+  
+  .homescreen-versie .line-8 {
+    position: absolute;
+    width: 26px;
+    height: 27px;
+    top: 1px;
+    left: 0;
+  }
+  
+  .homescreen-versie .line-9 {
+    position: absolute;
+    width: 25px;
+    height: 28px;
+    top: 0;
+    left: 1px;
+  }
+  
+  .homescreen-versie .rectangle-3 {
+    position: absolute;
+    width: 1200px;
+    height: 360px;
+    top: 0;
+    left: 0;
+    border-radius: 20px;
+    border: 2px solid;
+    border-color: #35a30e80;
+  }
+  
+  .homescreen-versie .image-2 {
+    position: absolute;
+    width: 416px;
+    height: 294px;
+    top: 33px;
+    left: 73px;
+    object-fit: cover;
+  }
+  
+  .homescreen-versie .stars-2 {
+    top: 51px;
+    left: 756px;
+    position: absolute;
+    width: 139px;
+    height: 22px;
+  }
+  
+  .homescreen-versie .chef-s-hat-4 {
+    position: absolute;
+    width: 22px;
+    height: 22px;
+    top: 0;
+    left: 0;
+  }
+  
+  .homescreen-versie .overlap-group-8 {
+    position: relative;
+    width: 24px;
+    height: 24px;
+    top: -1px;
+    left: -1px;
+  }
+  
+  .homescreen-versie .rectangle-4 {
+    position: absolute;
+    width: 13px;
+    height: 11px;
+    top: 6px;
+    left: 6px;
+    background-color: #8dd374;
+  }
+  
+  .homescreen-versie .vector-8 {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    top: 0;
+    left: 0;
+  }
+  
+  .homescreen-versie .vector-9 {
+    position: absolute;
+    width: 2px;
+    height: 5px;
+    top: 16px;
+    left: 11px;
+  }
+  
+  .homescreen-versie .chef-s-hat-5 {
+    height: 22px;
+    left: 58px;
+    position: absolute;
+    width: 22px;
+    top: 0;
+  }
+  
+  .homescreen-versie .chef-s-hat-6 {
+    height: 22px;
+    left: 87px;
+    position: absolute;
+    width: 22px;
+    top: 0;
+  }
+  
+  .homescreen-versie .chef-s-hat-7 {
+    height: 22px;
+    left: 117px;
+    position: absolute;
+    width: 22px;
+    top: 0;
+  }
+  
+  .homescreen-versie .rectangle-5 {
+    position: absolute;
+    width: 13px;
+    height: 11px;
+    top: 6px;
+    left: 6px;
+    background-color: #ffffff;
+  }
+  
+  .homescreen-versie .chef-s-hat-8 {
+    height: 22px;
+    left: 29px;
+    position: absolute;
+    width: 22px;
+    top: 0;
+  }
+  
+  .homescreen-versie .line-10 {
+    height: 43px;
+    top: 40px;
+    left: 736px;
+    position: absolute;
+    width: 1px;
+    object-fit: cover;
+  }
+  
+  .homescreen-versie .line-11 {
+    left: 912px;
+    position: absolute;
+    width: 1px;
+    height: 43px;
+    top: 40px;
+    object-fit: cover;
+  }
+  
+  .homescreen-versie .sticker-text-outline-2 {
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    top: 228px;
+    left: 510px;
+  }
+  
+  .homescreen-versie .map-marker-outline-2 {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 90px;
+    left: 510px;
+  }
+  
+  .homescreen-versie .vector-10 {
+    position: absolute;
+    width: 28px;
+    height: 31px;
+    top: 125px;
+    left: 510px;
+  }
+  
+  .homescreen-versie .review-3 {
+    height: 360px;
+    top: 849px;
+    left: 120px;
+    position: absolute;
+    width: 1200px;
+  }
+  
+  .homescreen-versie .content-3 {
+    position: absolute;
+    width: 556px;
+    height: 216px;
+    top: 43px;
+    left: 515px;
+  }
+  
+  .homescreen-versie .overlap-11 {
+    position: absolute;
+    width: 174px;
+    height: 103px;
+    top: 0;
+    left: 0;
+  }
+  
+  .homescreen-versie .text-wrapper-20 {
+    position: absolute;
+    width: 174px;
+    bottom: 25px;
+    font-family: "Inter-Bold", Helvetica;
+    font-weight: 700;
+    color: #000000;
+    font-size: 31.1px;
+    text-align: center;
+  }
+  
+  .homescreen-versie .text-wrapper-21 {
+    top: 70px;
+    left: 30px;
+    position: absolute;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 18px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .homescreen-versie .text-wrapper-22 {
+    top: 38px;
+    left: 30px;
+    position: absolute;
+    width: 44px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 18px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .homescreen-versie .text-wrapper-23 {
+    position: absolute;
+    width: 510px;
+    top: 172px;
+    left: 38px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .homescreen-versie .kenmerken-3 {
+    top: 1px;
+    left: 383px;
+    position: absolute;
+    width: 118px;
+    height: 34px;
+  }
+  
+  .homescreen-versie .kind-vriendelijk-3 {
+    width: 36px;
+    height: 34px;
+    left: 84px;
+    position: absolute;
+    top: 0;
+  }
+  
+  .homescreen-versie .text-wrapper-24 {
+    left: 11px;
+    position: absolute;
+    top: 6px;
+    font-family: "Inter-Medium", Helvetica;
+    font-weight: 500;
+    color: #000000;
+    font-size: 18px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .homescreen-versie .stars-3 {
+    top: 51px;
+    left: 720px;
+    position: absolute;
+    width: 139px;
+    height: 22px;
+  }
+  
+  .homescreen-versie .line-12 {
+    height: 43px;
+    top: 40px;
+    left: 704px;
+    position: absolute;
+    width: 1px;
+    object-fit: cover;
+  }
+  
+  .homescreen-versie .line-13 {
+    left: 874px;
+    position: absolute;
+    width: 1px;
+    height: 43px;
+    top: 40px;
+    object-fit: cover;
+  }
+  
+  .homescreen-versie .filters {
+    position: absolute;
+    width: 1198px;
+    height: 57px;
+    top: 732px;
+    left: 122px;
+  }
+  
+  .homescreen-versie .filter {
+    width: 311px;
+    top: 0;
+    left: 0;
+    position: absolute;
+    height: 56px;
+  }
+  
+  .homescreen-versie .overlap-group-9 {
+    position: relative;
+    width: 309px;
+    height: 56px;
+    border-radius: 20px;
+    border: 2px solid;
+    border-color: #35a30e80;
+  }
+  
+  .homescreen-versie .magnify {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 12px;
+    left: 261px;
+  }
+  
+  .homescreen-versie .text-wrapper-25 {
+    position: absolute;
+    left: 21px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #00000061;
+    font-size: 18px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .homescreen-versie .filter-2 {
+    width: 311px;
+    top: 0;
+    left: 380px;
+    position: absolute;
+    height: 56px;
+  }
+  
+  .homescreen-versie .overlap-12 {
+    position: relative;
+    width: 309px;
+    height: 56px;
+    background-image: url(./img/rectangle-8.svg);
+    background-size: 100% 100%;
+  }
+  
+  .homescreen-versie .arrow-2 {
+    position: absolute;
+    width: 39px;
+    height: 15px;
+    top: 24px;
+    left: 242px;
+  }
+  
+  .homescreen-versie .overlap-group-10 {
+    position: relative;
+    height: 18px;
+    top: -3px;
+  }
+  
+  .homescreen-versie .line-14 {
+    position: absolute;
+    width: 21px;
+    height: 18px;
+    top: 0;
+    left: 0;
+  }
+  
+  .homescreen-versie .line-15 {
+    position: absolute;
+    width: 22px;
+    height: 18px;
+    top: 0;
+    left: 17px;
+  }
+  
+  .homescreen-versie .text-wrapper-26 {
+    position: absolute;
+    top: 15px;
+    left: 18px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #00000061;
+    font-size: 18px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .homescreen-versie .filter-3 {
+    width: 414px;
+    top: 1px;
+    left: 786px;
+    position: absolute;
+    height: 56px;
+  }
+  
+  .homescreen-versie .overlap-13 {
+    position: relative;
+    width: 412px;
+    height: 56px;
+    border-radius: 20px;
+    border: 2px solid;
+    border-color: #35a30e80;
+  }
+  
+  .homescreen-versie .text-wrapper-27 {
+    position: absolute;
+
+    left: 12px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #00000061;
+    font-size: 18px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .homescreen-versie .stars-4 {
+    top: 15px;
+    left: 243px;
+    position: absolute;
+    width: 139px;
+    height: 22px;
+  }
+  
+  /* Dropdown Button */
+.dropbtn {
+  background-color: #8DD375;
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 16px;
+  border: none;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  border-radius: 10px;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 10px;
+  border-radius: 10px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: #8DD375;}
+
+#location{
+  padding: 20px;
+  width: 350px;
+  border-radius: 20px;
+  border-color: #35a30e80;
+  border-width: 2px;
+}
+

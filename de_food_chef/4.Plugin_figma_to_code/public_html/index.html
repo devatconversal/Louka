@@ -1,0 +1,184 @@
+<!--Duur-->
+<!--Opzetten structuur + kopiëren code: 2 min (1:30 sec + 30 sec)-->
+<!--Overzetten css: 21:10 tot 21:50 + 11:56 tot 12:26 + 15:57 tot  16:10 + 16:15 tot 16:33 -->
+<!--Aanpassen elementen div door p: 14:55 tot 15:05 + aanpassen elementen dropdown 10 min-->
+<!--Toevoegen icons: 15:15 tot 15:50 (downloaden + zoeken in code waar te komen)-->
+<!--Vaste posities aanpassen zodat opmaak beter uitziet: 15min-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Plugin figma to code</title>
+</head>
+<body>
+
+    <div class="root">
+        
+        <!--Header-->
+    <div class="header">
+
+        <img  class="banner-img"  src="images/Food.jpeg" />
+        <div class="rectangle-overlay"></div>
+        <div class="container-header-text">
+            <h1 class="titel">De food chef</h1>
+            <h4 class="undertitel">De chef voor al jouw lekker momenten!</h4>
+        </div>
+
+        <!--Navitems-->
+        <div class="navmenu">
+            
+            <div class="rectangle-overlay-navmenu"></div>
+            <div class="navitem1">Home</div>
+            <div class="navitem2">Over ons</div>
+
+            <div class="container-header-button">
+                <div class="rectangle-button"></div>
+                <div class="text-button">Toevoegen review</div>
+            </div>
+
+            <!--Taal dropdown-->
+            <div class="container-language-dropdown">
+                <div class="dropdown">
+                    <button class="dropbtn">NL</button>
+                    <div class="dropdown-content">
+                      <a href="#">EN</a>
+                      <a href="#">FR</a>
+                    </div>
+                  </div>
+            </div>
+
+            <!--Logo-->
+            <div class="container-header-logo">
+                <img class="logo" src="images/Logo.png" />
+            </div>
+            
+            <!--Lines between nav items-->
+            <div class="navline1"></div>
+            <div class="navline2"></div>
+        </div>
+    </div>
+
+    <!--Review-->
+    <div class="container-review">
+            <div class="container-review-content">
+                <h3 class="name-restaurant">De bierbuik</h3>
+                <p class="comments"  >Het is leuk lokaal restaurantje. Eten is zeker betaalbaar. De porties waren groot genoeg. Een echte aanrader</p>
+                <p class="date">06/04/2024</p>
+                <p class="location">Mere</p>
+
+                <!--Icons-->
+                <div class="container-icons-extras">
+                    <div class="container-icon1">
+                        <div class="rectangle-icon1"></div>
+                        <div class="position-icon1"><img src="images/icons/family_restroom.svg" alt=""></div>
+                    </div>
+                    <div class="container-icon2" >
+                        <div class="rectangle-icon2"></div>
+                        <div class="position-icon2"><img src="images/icons/attach_money.svg" alt=""></div>
+                    </div>
+                    <div class="container-icon3">
+                        <div class="rectangle-icon3"></div>
+                        <div class="position-icon3" ><img src="images/icons/car.svg" alt=""></div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="container-border-review"></div>
+            <img class="img-review" src="images/bierbuik.jpg" />
+            
+            <div class="container-chef-hats">
+                <div class="container-chef-hat1">
+                    <img style="width: 25px;" src="images/icons/chef-hat-green.svg">
+                </div>
+                <div class="container-chef-hat2">
+                    <img style="width: 25px;" src="images/icons/chef-hat-green.svg">
+                </div>
+                <div class="container-chef-hat3">
+                    <img style="width: 25px;" src="images/icons/chef-hat.svg">
+                </div>
+                <div class="container-chef-hat4" >
+                    <img style="width: 25px;" src="images/icons/chef-hat.svg">
+                </div>
+                <div class="container-chef-hat5">
+                    <img style="width: 25px;" src="images/icons/chef-hat-green.svg">
+                </div>
+            </div>
+
+            <div class="reviewline1"></div>
+            <div class="reviewline2"></div>
+            <div class="container-icon1-content">
+                <div class="content-icon1"><img class="icon" src="images/icons/comments.svg" alt=""></div>
+            </div>
+            <div class="container-icon2-content">
+                <div class="content-icon2"><img class="icon" src="images/icons/location.svg" alt=""></div>
+            </div>
+            <div class="container-icon3-content"><img class="icon" src="images/icons/date-range.svg" alt=""></div>
+        </div>
+
+        <!--Filter-->
+        <div style="width: 1198px; height: 57px; left: 122px; top: 732px; position: absolute">
+            <div class="container-filter1">
+                <div class="rectangle-filter1"></div>
+                <div class="container-filter1-icon">
+                    <!--Icon-->
+                    <div class="container-icon-filter1"><img class="icon" src="images/icons/search-yellow.svg" alt=""></div>
+                </div>
+                <p class="text-placeholder-filter1">Vb: De bierbuik</p>
+            </div>
+
+            <!--change to dropdown-->
+            <div class="container-filter2">
+                    <select class="locations" name="Locaties" id="locaties"> 
+                        <option class="location-placeholder" disabled selected hidden value="">Locaties</option> 
+                        <option value="gent">Gent</option> 
+                        <option value="brussel">Brussel</option> 
+                        <option value="mere">Mere</option> 
+                    </select>
+            </div>
+            
+
+            <div class="container-filter3">
+                <div class="rectangle-filter3"></div>
+                <p class="text-placeholder-filter3">Aantal chefsmutsen:</p>
+
+                <!--Icons-->
+                <div class="container-icons-filter">
+                    <div class="container-icon1-filter">
+                        <img  class="icon"src="images/icons/chef-hat.svg">
+                    </div>
+                    <div class="container-icon2-filter">
+                        <img class="icon" src="images/icons/chef-hat.svg">
+                    </div>
+                    <div class="container-icon3-filter">
+                        <img class="icon" src="images/icons/chef-hat.svg">
+                    </div>
+                    <div class="container-icon4-filter">
+                        <img class="icon" src="images/icons/chef-hat.svg">
+                    </div>
+                    <div class="container-icon5-filter">
+                        <img class="icon" src="images/icons/chef-hat.svg">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--Footer-->
+        <div class="container-footer">
+            <div class="rectangle-footer"></div>
+            <p class="text1">Copyright 2024</p>
+            <p class="text2">Privacy policy</p>
+            <p class="text3">Cookie policy</p>
+        </div>
+
+        <!--Toevoeg button-->
+        <div class="container-floating-button">
+            <div class="rectangle-floating-button"></div>
+            <p class="text-floating-button">Voeg toe</p>
+        </div>
+    </div>
+
+</body>
+</html>

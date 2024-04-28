@@ -1,0 +1,169 @@
+<!--Duur-->
+<!--14:55 tot 15:30 -->
+<!--16:00 tot 16:40 = 1 uur 40min-->
+
+<!--Responsive maken: -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!--Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jacques+Francois&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jacques+Francois&family=Jacques+Francois+Shadow&display=swap" rel="stylesheet">
+    
+    <title>Figma vs code extentie</title>
+</head>
+<body>
+    <!--Header-->
+    <div>
+        <!--Navbar-->
+        <div class="container-navbar">
+            <div class="navbar">
+                <div class="logo">
+                    <img src="images/Logo.png" alt="">
+                </div>
+                <div class="navitems">
+                    <ul>
+                        <li><a href="">Home</a></li>
+                        <li><a href="">Over ons</a></li>
+                        <li class="line"><img src="images/icons/line.svg" alt=""></li>
+                        <li class="language-button">
+                            <button class="language-standard">NL</button>
+                            <div class="language-dropdown">
+                              <a href="#">EN</a>
+                              <a href="#">FR</a>
+                            </div>
+                        </li>
+                        <li class="line"><img src="images/icons/line.svg" alt=""></li>
+                        <li><button class="add-button">Toevoegen review</button></li>
+                    </ul>
+
+                    <div class="responsive-menu">
+                        <img src="images/icons/hamburger-menu.svg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--Banner-->
+        <div class="banner">
+            <div class="image">
+                <img src="images/Food.jpeg" alt="">
+            </div>
+            <div class="container-test">
+                <div class="text">
+                    <h1>De food chef</h1>
+                    <h4>De chef voor al jou lekker momenten!</h4>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Content-->
+    <div class="content">
+
+        <!--Filter-->
+        <div class="container-filters">
+            <div class="filters">
+                <div class="filter1">
+                    <input placeholder="Vb: De bierbuik" type="text">
+                </div>
+                <div>
+                    <Select class="filter2">
+                        <option disabled hidden selected value=""><p>Selecteer locatie</p></option>
+                        <option value="aalst">Aalst</option>
+                    </Select>
+                </div>
+                <div class="filter3">
+                    <p>Aantal: </p>
+                    <img src="images/icons/chef-hat.svg" alt="">
+                    <img src="images/icons/chef-hat.svg" alt="">
+                    <img src="images/icons/chef-hat.svg" alt="">
+                    <img src="images/icons/chef-hat.svg" alt="">
+                    <img src="images/icons/chef-hat.svg" alt="">
+                </div>
+            </div>
+        </div>
+
+        <!--Review-->
+        <div class="review">
+            <div class="left">
+                <img src="images/bierbuik.jpg" alt="">
+            </div>
+            <div class="right">
+                <div class="name">
+                    <h3>De bierbuik</h3>
+                    <div>
+                        <img class="line" src="images/icons/line black.svg" alt="">
+                    </div>
+                    <div class="stars">
+                        <img src="images/icons/chef-hat.svg" alt="">
+                        <img src="images/icons/chef-hat.svg" alt="">
+                        <img src="images/icons/chef-hat.svg" alt="">
+                        <img src="images/icons/chef-hat.svg" alt="">
+                        <img src="images/icons/chef-hat.svg" alt="">
+                    </div>
+                    <div>
+                        <img class="line" src="images/icons/line black.svg" alt="">
+                    </div>
+                    <div class="char">
+                        <div class="circel">
+                            <img src="images/icons/family_restroom.svg" alt="">
+                        </div>
+                        <div class="circel">
+                            <img src="images/icons/car.svg" alt="">
+                        </div>
+                        <div class="circel">
+                            <img src="images/icons/attach_money.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="location">
+                    <img src="images/icons/location.svg" alt="">
+                    <p>Mere</p>
+                </div>
+                <div class="date">
+                    <img src="images/icons/date-range.svg" alt="">
+                    <p>24/04/2024</p>
+                </div>
+                <div class="comments">
+                    <img src="images/icons/comments.svg" alt="">
+                    <p>Het is een lokaal gezellig restaurant!</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-floating-button" >
+            <div class="floating-add-button">
+                <button>Voeg review toe</button>
+            </div>
+        </div>
+
+    </div>
+</body>
+
+<footer>
+    <div class="footer">
+        <div class="left">
+            <p>Copyright</p>
+        </div>
+        <div class="right">
+            <p>Cookie policy</p>
+            <p>Privacy policy</p>
+        </div>
+    </div>
+</footer>
+</html>

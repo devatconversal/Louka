@@ -1,0 +1,431 @@
+/*Navbar*/
+.container-navbar{
+    z-index: 1;
+    width: 100%;
+    background: #000;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar{
+    width: 1200px;
+    height: 120px;
+    display: flex;
+    align-items: center;
+}
+
+.navbar .logo{
+    width: 20%;
+}
+
+.navbar .navitems{
+    width: 80%;
+}
+
+.navbar .navitems ul{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    list-style-type: none;
+
+}
+
+.navbar .navitems ul li{
+   padding: 20px;
+}
+
+.navbar .navitems ul li a{
+    font-family: Inter;
+    color: #FFF;
+    font-size: 18px;
+    text-decoration: none;
+ }
+
+.navbar .logo img{
+    width: 160px;
+    height: 120px;
+
+}
+
+.add-button{
+    width: 244px;
+    height: 40px;
+    background-color: #DCB34B;
+    border-radius: 10px;
+    border: none;
+
+    /*Text*/
+    color: #FFF;
+    font-family: Inter;
+    font-size: 18px;
+    text-align: center;
+}
+
+.line img{
+    width: 40px;
+}
+
+.language-standard {
+    background-color: #8DD375;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 18px;
+    border: none;
+  }
+  
+
+.language-button {
+    position: relative;
+    display: inline-block;
+}
+
+.language-dropdown {
+    display: none;
+    position: absolute;
+    background-color: black;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    border-radius: 10px;
+}
+  
+.language-dropdown a {
+    color: black;
+    padding: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+    display: block;
+}
+
+.language-dropdown a:hover {
+    background-color: #8DD375;
+}
+
+.language-button:hover .language-dropdown {
+    display: block;
+}
+
+/*Banner*/
+
+.banner{
+    position: relative;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    width: 100%;
+}
+
+.banner .image{
+    position: absolute;
+    width: 100%;
+}
+
+.banner .image img{
+    width: 100%;
+}
+
+.container-test{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 90%;
+}
+
+.banner .text{
+    width: 788px;
+    height: 270px;
+    background: rgba(0, 0, 0, 0.50);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+}
+
+.banner h1{
+    opacity: 0.9;
+    color: #FFF;
+    font-family: "Jacques Francois Shadow";
+    font-size: 90px;
+    font-style: normal;
+    font-weight: 400;
+    margin: 0;
+}
+
+.banner h4{
+    color: white;
+    font-family: "Jacques Francois";
+    font-size: 25.92px;
+    font-weight: 400;
+    margin: 0;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/*Filters*/
+.container-filters{
+    display: flex;
+    justify-content: center;
+}
+
+.filters{
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.filters input, .filters .filter2, .filters .filter3{
+  width: 300px;
+  height: 50px;
+  border-radius: 20px;
+  border: 2px solid rgba(53, 164, 15, 0.50);
+
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+.filters input, .filter3 p, .filter2 option p{
+    color: gray;
+    padding-left: 10px;
+    font-family: "Inter";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.filters .filter3 img{
+    width: 25px;
+    padding-right: 10px;
+}
+
+.filters .filter3 p{
+    padding-right: 60px;
+}
+
+.filter1 input, .filter2{
+    background-color: transparent;
+}
+
+.filter2{
+    min-height: 55px;
+    color: gray;
+    font-size: 18px;
+    padding-left: 10px;
+    min-width: 315px;
+}
+
+.filter3{
+    min-width: 310px;
+}
+
+/*Review*/
+
+.review{
+    width: 1200px;
+    height: 360px;
+    border-radius: 20px;
+    border: 2px solid rgba(53, 164, 15, 0.50);
+    margin-bottom: 50px;
+    margin-top: 50px;
+
+    display: flex;
+}
+
+.review .left{
+    width: 40%;
+    display: flex;
+}
+
+.review .left img{
+    margin: 50px;
+    border-radius: 20px;
+}
+
+.review .right{
+    display: flex;
+    flex-direction: column;
+    padding-top: 40px;
+}
+
+.review .right .name{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.review .right h3{
+    font-family: Inter;
+    font-size: 31.1px;
+    margin: 0;
+}
+
+.review .right .line{
+    width: 50px;
+}
+
+.review .right .stars img{
+    width: 25px;
+}
+
+.char{
+    display: flex;
+}
+
+.circel{
+    background-color: #DCB34B;
+    width: 30px;
+    height: 30px;
+    border-radius: 20px;
+    margin-right: 10px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circel img{
+    width: 20px;
+}
+
+.location, .date, .comments {
+    display: flex;
+}
+
+.location img, .date img, .comments img{
+    width: 30px;
+    padding-right: 10px;
+}
+
+.location p, .date p, .comments p{
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.container-floating-button{
+    display: flex;
+    justify-content: center;
+}
+
+.floating-add-button{
+    width: 1200px;
+    display: flex;
+    justify-content: end;
+}
+
+.floating-add-button button{
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    background: #DCB34B;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    text-align: center;
+    border: none;
+    margin-bottom: 50px;
+}
+
+footer{
+    background-color: #8DD375;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.footer{
+    width: 1200px;
+    display: flex;
+
+}
+
+.footer .left{
+    width: 20%;
+}
+
+.footer .right{
+    display: flex;
+    width: 80%;
+    justify-content: end;
+}
+
+.footer .right :first-child{
+    padding-right: 50px;
+}
+
+.footer .right p, .footer .left p {
+    color: white;
+    font-size: 18px;
+    font-family: "Inter";
+}
+
+@media only screen and (min-width: 1199px) {
+    .responsive-menu{
+      display: none;
+    }
+}
+
+
+
+@media only screen and (max-width: 1200px) {
+      .navitems ul li{
+        display: none;
+      }
+
+      .navbar{
+        width: 800px;
+      }
+
+      .responsive-menu img{
+        width: 50px;
+      }
+
+      .navitems{
+        background-color: rebeccapurple;
+        width: 30%;
+      }
+
+      .logo{
+        background-color: red;
+        width: 40%;
+      }
+
+      .container-test{
+        height: 55%;
+      }
+
+      .filters{
+        display: grid;
+        justify-content: center;
+      }
+
+      .filter1, .filter2, .filter3{
+        margin: 10px;
+      }
+
+      .review, .container-floating-button, .footer{
+        width: 800px;
+      }
+
+      .review .left{
+        display: none;
+      }
+
+      .review .right{
+        width: 100%;
+      }
+
+      .review .location img, .review .date img, .review .comments img{
+        margin-left: 90px;
+      }
+
+}
